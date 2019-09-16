@@ -1,0 +1,88 @@
+[Fri May 31 10:50:15.891097 2019] [core:notice] [pid 4346:tid 139870741174144] AH00094: Command line: '/usr/local/apache/bin/httpd'
+[Fri May 31 10:51:20.570960 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00493: SIGUSR1 received. Doing graceful restart
+[Fri May 31 10:51:20.614471 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 31 10:51:20.630060 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01906: develope.dpmptsp.jatengprov.go.id:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 31 10:51:20.630627 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00489: Apache/2.4.34 (Unix) OpenSSL/1.0.1e-fips configured -- resuming normal operations
+[Fri May 31 10:51:20.630646 2019] [core:notice] [pid 4346:tid 139870741174144] AH00094: Command line: '/usr/local/apache/bin/httpd'
+[Fri May 31 10:51:46.016198 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00493: SIGUSR1 received. Doing graceful restart
+[Fri May 31 10:51:46.052031 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 31 10:51:46.053078 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01906: develope.dpmptsp.jatengprov.go.id:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 31 10:51:46.053634 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00489: Apache/2.4.34 (Unix) OpenSSL/1.0.1e-fips configured -- resuming normal operations
+[Fri May 31 10:51:46.053651 2019] [core:notice] [pid 4346:tid 139870741174144] AH00094: Command line: '/usr/local/apache/bin/httpd'
+[Fri May 31 10:52:26.054777 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00493: SIGUSR1 received. Doing graceful restart
+[Fri May 31 10:52:26.083654 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 31 10:52:26.084695 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01906: develope.dpmptsp.jatengprov.go.id:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 31 10:52:26.085339 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00489: Apache/2.4.34 (Unix) OpenSSL/1.0.1e-fips configured -- resuming normal operations
+[Fri May 31 10:52:26.085363 2019] [core:notice] [pid 4346:tid 139870741174144] AH00094: Command line: '/usr/local/apache/bin/httpd'
+[Fri May 31 10:52:43.081278 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00493: SIGUSR1 received. Doing graceful restart
+[Fri May 31 10:52:43.108015 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 31 10:52:43.109056 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01906: develope.dpmptsp.jatengprov.go.id:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 31 10:52:43.109612 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00489: Apache/2.4.34 (Unix) OpenSSL/1.0.1e-fips configured -- resuming normal operations
+[Fri May 31 10:52:43.109638 2019] [core:notice] [pid 4346:tid 139870741174144] AH00094: Command line: '/usr/local/apache/bin/httpd'
+[Fri May 31 10:52:56.543822 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00493: SIGUSR1 received. Doing graceful restart
+[Fri May 31 10:52:56.572104 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri May 31 10:52:56.573161 2019] [ssl:warn] [pid 4346:tid 139870741174144] AH01906: develope.dpmptsp.jatengprov.go.id:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri May 31 10:52:56.573722 2019] [mpm_event:notice] [pid 4346:tid 139870741174144] AH00489: Apache/2.4.34 (Unix) OpenSSL/1.0.1e-fips configured -- resuming normal operations
+[Fri May 31 10:52:56.573740 2019] [core:notice] [pid 4346:tid 139870741174144] AH00094: Command line: '/usr/local/apache/bin/httpd'
+[Fri May 31 10:57:58.812857 2019] [core:alert] [pid 18623:tid 139870584903424] [client 10.10.10.1:54833] /home/webbuild/public_html/.htaccess: Options not allowed here
+[Fri May 31 10:58:18.683918 2019] [:error] [pid 18623:tid 139870433404672] [client 10.10.10.1:54853] PHP Parse error: syntax error, unexpected '?' in /home/arsips/arsip/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[Fri May 31 10:58:26.255408 2019] [:error] [pid 18623:tid 139870349477632] [client 10.10.10.1:54865] PHP Parse error: syntax error, unexpected '?' in /home/arsips/arsip/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[Fri May 31 10:58:50.891159 2019] [:error] [pid 18625:tid 139870475368192] [client 10.10.10.1:54894] PHP Parse error: syntax error, unexpected '?' in /home/arsips/arsip/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[Fri May 31 11:25:35.107795 2019] [core:alert] [pid 19338:tid 139870450190080] [client 10.10.10.1:59368] /home/webbuild/public_html/.htaccess: Options not allowed here
+[Fri May 31 11:31:27.496330 2019] [:error] [pid 18622:tid 139870466975488] [client 10.10.10.1:59972] File does not exist: /usr/local/apache/htdocs/phpinfo.php
+[Fri May 31 11:31:36.145420 2019] [:error] [pid 18623:tid 139870408226560] [client 10.10.10.1:59971] PHP Parse error: syntax error, unexpected '?' in /home/arsips/arsip/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[Fri May 31 11:31:46.877805 2019] [core:alert] [pid 18622:tid 139870433404672] [client 10.10.10.1:60011] /home/webbuild/public_html/.htaccess: Options not allowed here
+[Fri May 31 11:31:54.625544 2019] [core:alert] [pid 18622:tid 139870399833856] [client 10.10.10.1:60012] /home/webbuild/public_html/.htaccess: Options not allowed here
+
+
+#<IfModule mod_security.c>
+#SecFilterEngine Off
+#SecFilterScanPOST Off
+#SecFilterCheckURLEncoding Off
+#SecFilterCheckUnicodeEncoding Off
+#</IfModule>
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    Options +FollowSymlinks -Indexes
+    RewriteEngine On
+    RewriteBase /
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(css|js|images)/(.*)$ public/$1/$2 [L,NC]
+
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 day"
+ExpiresByType image/jpeg "access plus 1 day"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/x-javascript "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+## EXPIRES CACHING
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php55 .php .phtml
+# php -- END cPanel-generated handler, do not edit
