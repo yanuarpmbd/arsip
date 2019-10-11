@@ -31,7 +31,7 @@ class RekapController extends Controller
         $day = Carbon::today();
         //dd($day);
 
-        $today = ArsipModel::whereDate('created_at', $day)->paginate(10);
+        $today = ArsipModel::whereDate('created_at', $day)->get();
         //dd($today);
 
         foreach ($today as $t){
@@ -62,9 +62,9 @@ class RekapController extends Controller
         /*$record2 = DB::select("SELECT * FROM `arsip` WHERE `jns_izin_id`='$value'");*/
         $record = ArsipModel::where('jns_izin_id', '=', $value)->paginate(10);
 
-        /*foreach ($record as $r){
-            dd($r->jenis->nama_izin);
-        }*/
+       /*foreach ($record as $r){
+           dd($r->jenis->nama_izin);
+       }*/
 
 
         return view('yanjin.base.rekap.izin', compact('dropdown', 'record', 'p', 'peminjam'));
@@ -110,7 +110,12 @@ class RekapController extends Controller
 
         $record = ArsipModel::whereMonth('tanggal', '=', $bulan)
             ->whereYear('tanggal', '=', $tahun)
-            ->paginate(10);
+            ->get();
+        //dd($record);
+
+        //dd($record2);
+
+        //dd($record);
 
         return view('yanjin.base.rekap.bulan', compact('bulan', 'tahun', 'year', 'p', 'peminjam', 'month', 'record'));
     }
@@ -123,10 +128,9 @@ class RekapController extends Controller
         $p = DB::select("SELECT COUNT(*) as jml FROM `pinjam` WHERE `tanggal_kembali` IS NULL");
         $peminjam = PinjamArsipModel::all()->sortByDesc('created_at');
 
-        $record = ArsipModel::whereYear('tanggal', '=', $tahun)->paginate(10);
+        $record = ArsipModel::whereYear('tanggal', '=', $tahun)->get();
 
-
-        return view('yanjin.base.rekap.tahun', compact('tahun', 'peminjam','p','year', 'record'));
+        return view('yanjin.base.rekap.tahun', compact('tahun', 'peminjam','p','year', 'record' ));
     }
 
     /**

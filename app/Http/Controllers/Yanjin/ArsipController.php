@@ -142,7 +142,7 @@ class ArsipController extends Controller
         ));
 
         $te = $request->file('file_sk');
-       // dd($te);
+        //dd($te);
 
         if ($request->hasFile('file_sk')) {
             // Get filename with the extension
@@ -186,6 +186,8 @@ class ArsipController extends Controller
         $arsipsaiki = ArsipModel::where('jns_izin_id', $input_izin)->get();
         $itung = count($arsipsaiki);
         //dd($itung);
+
+
 
         $nama_bu = $request->input('nama_pt');
         $sektor_to_kode = JenisIzinModel::find($input_izin)->sektor->kode_sektor;

@@ -93,8 +93,8 @@ Route::prefix('arsip')->group(function (){
 Route::get('/find','Yanjin\PinjamArsipController@autocomplete')->name('autocomplete');
 Route::get('/pinjam','Yanjin\PinjamArsipController@index')->name('get.pinjam');
 Route::post('/pinjam','Yanjin\PinjamArsipController@store')->name('pinjam.submit');
-Route::get('/skpd','SKPD\RekapskpdController@sektor')->name('rekap.skpd');
-Route::get('/sk/download/{id}','SKPD\RekapskpdController@pdfview')->name('download.sk');
+Route::get('/skpd','SKPD\RekapSKPDController@sektor')->name('rekap.skpd');
+Route::get('/sk/download/{id}','SKPD\RekapSKPDController@pdfview')->name('download.sk');
 Route::get('/home/skpd', 'SKPD\HomeSKPDController@home')->name('home.skpd');
 Route::get('/search','Yanjin\ArsipController@search')->name('search');
 Route::view('/settingskpd','skpd\base\settingskpd')->name('settingskpd');

@@ -64,7 +64,7 @@ class RekapSKPDController extends Controller
         $sk = ArsipModel::find($id);
         $download = $sk->sk;
         //dd($download);
-
+        
         return Storage::download($download);
     }
 
